@@ -272,39 +272,7 @@ The dashboard contains three modes:
 The third mode is clearly labelled synthetic. It is included to demonstrate
 the interface and is not exported from the validated Simulink datasets.
 
-## Deploying the Streamlit app
-
-1. Push the complete repository to GitHub.
-2. Sign in to Streamlit Community Cloud with GitHub.
-3. Create an app from the repository.
-4. Select:
-   - Branch: `main`
-   - Entrypoint: `streamlit_app.py`
-5. Choose a Python version compatible with the repository, preferably 3.12.
-6. Deploy the application.
-
-Keep `requirements.txt` at the repository root so the cloud environment can
-install the declared dependencies.
-
-## Publishing interactive HTML with GitHub Pages
-
-The repository already contains a Pages-ready `docs/index.html`.
-
-After pushing to GitHub:
-
-1. Open repository **Settings**.
-2. Open **Pages**.
-3. Choose **Deploy from a branch**.
-4. Select branch `main`.
-5. Select folder `/docs`.
-6. Save the configuration.
-
-The project site will then expose the HTML visualisations through a URL based
-on the GitHub username and repository name.
-
-## Upload order
-
-See [`UPLOAD_ORDER.md`](UPLOAD_ORDER.md) for a staged upload and commit plan.
+Streamlit App Link: (https://alkaline-water-electrolyzer-1d-digital-twin.streamlit.app)
 
 ## Validation and limitations
 
@@ -317,31 +285,6 @@ approximately **1 to 30 bar**. Outputs outside the reported comparison domain
 should therefore be treated as exploratory model extrapolations.
 
 Read [`docs/validation.md`](docs/validation.md) before using the results.
-
-## Reproducibility guidance
-
-For every material model change:
-
-1. Record the MATLAB and Simulink release.
-2. Record the changed equation, parameter, or correlation.
-3. Re-run a known baseline operating point.
-4. Export fresh CSV files.
-5. Regenerate static and interactive figures.
-6. Update the validation notes and README.
-7. Do not commit generated `slprj`, cache, code-generation, or virtual
-   environment folders.
-
-## Public-release checklist
-
-Before publishing:
-
-- Confirm the working `model/awe_dt.slx` opens and updates without warnings
-- Test the Streamlit application locally
-- Verify all four interactive HTML files
-- Ensure no phone numbers or private data appear in public documents
-- Add references for external figures and equations
-- Confirm contributor names and GitHub handles
-- Select a project licence with the full team's agreement
 
 ## Credits
 
