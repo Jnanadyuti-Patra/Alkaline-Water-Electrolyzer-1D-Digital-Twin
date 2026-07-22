@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AWE Digital Twin Interactive Results</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 980px; margin: 40px auto; padding: 0 20px; line-height: 1.55; }
+    h1 { margin-bottom: 4px; }
+    .subtitle { color: #555; margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; margin-top: 28px; }
+    .card { border: 1px solid #d8d8d8; border-radius: 12px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+    a { color: #005cc5; font-weight: 600; }
+    img { max-width: 100%; border: 1px solid #ddd; border-radius: 8px; }
+    .warning { background: #fff7df; border-left: 5px solid #e0a400; padding: 14px; margin-top: 26px; }
+  </style>
+</head>
+<body>
+  <h1>Alkaline Water Electrolyzer Digital Twin</h1>
+  <p class="subtitle">Interactive model-generated voltage and bubble-coverage surfaces</p>
+
+  <img src="architecture/awe_model_architecture.png" alt="AWE model architecture">
+
+  <div class="grid">
+    <div class="card">
+      <h2>Pressure and Temperature at 90 A</h2>
+      <p><a href="interactive/cell_voltage_pressure_temperature_90a.html">Cell-voltage surface</a></p>
+      <p><a href="interactive/bubble_coverage_pressure_temperature_90a.html">Bubble-coverage surface</a></p>
+    </div>
+    <div class="card">
+      <h2>Current and Temperature at approximately 1 bar</h2>
+      <p><a href="interactive/cell_voltage_current_temperature_1bar.html">Cell-voltage surface</a></p>
+      <p><a href="interactive/bubble_coverage_current_temperature_1bar.html">Bubble-coverage surface</a></p>
+    </div>
+  </div>
+
+  <div class="warning">
+    These visualisations contain model-generated results. Values outside the
+    reported comparison domain should be treated as exploratory extrapolations.
+  </div>
+</body>
+</html>
