@@ -155,12 +155,12 @@ Detailed column descriptions are available in
 
 ## Interactive Results
 
-[Open the Interactive Results Homepage](https://jnanadyuti-patra.github.io/alkaline-water-electrolyzer-digital-twin/)
+[Open the Interactive Results Homepage](https://jnanadyuti-patra.github.io/Alkaline-Water-Electrolyzer-1D-Digital-Twin/)
 
-- [Cell Voltage vs Pressure and Temperature at 90 A](https://jnanadyuti-patra.github.io/alkaline-water-electrolyzer-digital-twin/interactive/cell_voltage_pressure_temperature_90a.html)
-- [Bubble Coverage vs Pressure and Temperature at 90 A](https://jnanadyuti-patra.github.io/alkaline-water-electrolyzer-digital-twin/interactive/bubble_coverage_pressure_temperature_90a.html)
-- [Cell Voltage vs Current and Temperature at Approximately 1 Bar](https://jnanadyuti-patra.github.io/alkaline-water-electrolyzer-digital-twin/interactive/cell_voltage_current_temperature_1bar.html)
-- [Bubble Coverage vs Current and Temperature at Approximately 1 Bar](https://jnanadyuti-patra.github.io/alkaline-water-electrolyzer-digital-twin/interactive/bubble_coverage_current_temperature_1bar.html)
+- [Cell Voltage vs Pressure and Temperature at 90 A](https://jnanadyuti-patra.github.io/Alkaline-Water-Electrolyzer-1D-Digital-Twin/interactive/cell_voltage_pressure_temperature_90a.html)
+- [Bubble Coverage vs Pressure and Temperature at 90 A](https://jnanadyuti-patra.github.io/Alkaline-Water-Electrolyzer-1D-Digital-Twin/interactive/bubble_coverage_pressure_temperature_90a.html)
+- [Cell Voltage vs Current and Temperature at Approximately 1 Bar](https://jnanadyuti-patra.github.io/Alkaline-Water-Electrolyzer-1D-Digital-Twin/interactive/cell_voltage_current_temperature_1bar.html)
+- [Bubble Coverage vs Current and Temperature at Approximately 1 Bar](https://jnanadyuti-patra.github.io/Alkaline-Water-Electrolyzer-1D-Digital-Twin/interactive/bubble_coverage_current_temperature_1bar.html)
 
 Each file is self-contained and can be viewed without running Python.
 
